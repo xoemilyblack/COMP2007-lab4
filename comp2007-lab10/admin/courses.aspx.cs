@@ -102,12 +102,12 @@ namespace comp2007_lab10
                         {
                             if (Session["SortDirection"].ToString() == "DESC")
                             {
-                                SortImage.ImageUrl = "images/desc.jpg";
+                                SortImage.ImageUrl = "/images/desc.jpg";
                                 SortImage.AlternateText = "Sort Descending";
                             }
                             else
                             {
-                                SortImage.ImageUrl = "images/asc.jpg";
+                                SortImage.ImageUrl = "/images/asc.jpg";
                                 SortImage.AlternateText = "Sort Ascending";
                             }
 
